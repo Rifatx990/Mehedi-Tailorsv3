@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to TailorCraft</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { background-color: #4361ee; color: white; padding: 20px; text-align: center; }
+        .content { padding: 30px; background-color: #f8f9fa; }
+        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+        .btn { display: inline-block; padding: 12px 24px; background-color: #4361ee; color: white; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to TailorCraft!</h1>
+        </div>
+        
+        <div class="content">
+            <h2>Hello <%= name %>,</h2>
+            <p>Thank you for joining TailorCraft! We're excited to have you as part of our community.</p>
+            
+            <p>With your account, you can:</p>
+            <ul>
+                <li>Browse our premium collection of clothing</li>
+                <li>Order custom-tailored outfits</li>
+                <li>Save your measurements for future orders</li>
+                <li>Track your orders in real-time</li>
+                <li>Manage your wishlist</li>
+            </ul>
+            
+            <p>Get started by exploring our products:</p>
+            <p style="text-align: center;">
+                <a href="<%= loginUrl %>" class="btn">Start Shopping</a>
+            </p>
+            
+            <p>If you have any questions, feel free to reply to this email or contact our support team.</p>
+            
+            <p>Best regards,<br>The TailorCraft Team</p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; <%= currentYear %> TailorCraft. All rights reserved.</p>
+            <p><a href="<%= siteUrl %>/contact">Contact Us</a> | <a href="<%= siteUrl %>/privacy">Privacy Policy</a> | <a href="<%= siteUrl %>/terms">Terms of Service</a></p>
+        </div>
+    </div>
+</body>
+</html>
