@@ -1,0 +1,75 @@
+{
+  "short_name": "TailorCraft",
+  "name": "TailorCraft - Custom Tailoring E-Commerce",
+  "description": "Premium custom tailoring and ready-made clothing solutions. Get perfectly fitted clothing tailored just for you.",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#4361ee",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#4361ee",
+  "orientation": "portrait-primary",
+  "categories": ["shopping", "fashion", "ecommerce"],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "TailorCraft Desktop View"
+    },
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "TailorCraft Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Shop Now",
+      "short_name": "Shop",
+      "description": "Browse our collection",
+      "url": "/products",
+      "icons": [{ "src": "/icon-shop.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Custom Order",
+      "short_name": "Custom",
+      "description": "Start a custom order",
+      "url": "/custom",
+      "icons": [{ "src": "/icon-custom.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
