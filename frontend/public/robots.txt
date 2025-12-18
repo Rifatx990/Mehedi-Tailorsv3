@@ -1,0 +1,25 @@
+# TailorCraft - Robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/orders/
+Disallow: /checkout/
+Disallow: /cart/
+
+# Sitemap
+Sitemap: https://tailorcraft.com/sitemap.xml
+
+# Crawl delay (requests per second)
+Crawl-delay: 10
+
+# Allow media files
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+
+# Disallow query parameters
+Disallow: /*?sort=
+Disallow: /*?filter=
+Disallow: /*?page=
